@@ -26,7 +26,11 @@ for k in range(6):
        print("you won")
        break
     
-   
+
+if flag==False:
+   print("you lose")
+   print("6/6 wrong attempts")
+   print("the encypted word was ",encrypted)
    
         
     
